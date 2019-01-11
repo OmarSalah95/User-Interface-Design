@@ -206,3 +206,37 @@ footer nav a {
     text-decoration: none;
 }
 /* Styling for the About page */
+
+.text-block{
+    margin: 15px ;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px;
+    
+}
+
+.UI{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    border-bottom: 1px dotted black;
+    margin:15px auto;
+}
+
+.UI button{
+    width:100px;
+    height:25px;
+    margin: 15px 0;
+    background: white;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+
+
+
+
