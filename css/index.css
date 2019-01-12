@@ -131,7 +131,15 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition:1s;
+    
 }
+/* Boxes Hover animation */
+.middle-content .boxes .box:hover{
+    opacity: 1;
+    transform: rotateZ(360deg);
+    }
+
 /* Specific box attributes */
 #box1{
     background-color:teal;
@@ -228,15 +236,21 @@ footer nav a {
 }
 
 .UI button{
-    width:100px;
-    height:25px;
+    width:125px;
+    height:30px;
     margin: 15px 0;
     background: white;
     border-radius: 7px;
-    border: 1px solid black;
+    border: 2px solid black;
+    transition: .5s;
 }
 
-
+.UI button:hover{
+    transform: scale(1.1)
+}
+.UI h2{
+    margin-top: 15px;
+}
 
 
 
